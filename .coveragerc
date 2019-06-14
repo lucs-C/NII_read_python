@@ -1,0 +1,8 @@
+[run]
+branch = True
+source = nibabel, nisext
+include = */nibabel/*, */nisext/*
+omit =
+    */externals/*
+    */benchmarks/*
+    */tests/*
